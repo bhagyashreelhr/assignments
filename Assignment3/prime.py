@@ -1,7 +1,5 @@
 # Python program to check if a number is prime or not  
-
 def isPrime(number):
-
     try:
         if number > 1:
             for i in range(2, number):
@@ -15,6 +13,5 @@ def isPrime(number):
         print("Wrong Input")
 
 # Take input from the user
-
 number = int(input("Enter any number: "))
 result = isPrime(number)

@@ -23,14 +23,15 @@ def divide(num1, num2):
     else:
         return x
 
-print("Please select Arithmetic Operation -\n"
+# Main Function
+def main():
+    print("Please select Arithmetic Operation -\n"
         "1. Add\n"
         "2. Subtract\n"
         "3. Multiply\n"
         "4. Divide\n")
 
 # Take input from the user
-
 select = int(input("Select operations from 1, 2, 3, 4 :"))
 
 number_1 = int(input("Enter first number: "))
@@ -54,3 +55,6 @@ elif select == 4:
 else:
     print("Invalid input")
 
+# Call main function
+    if __name__ == '__main__':
+        main()
